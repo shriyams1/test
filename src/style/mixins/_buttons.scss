@@ -1,0 +1,44 @@
+@mixin button {
+    .submit{
+        display: block;
+        padding: 8px 42px;
+        margin: 20px auto;
+        font-size: 16px;
+        line-height: 1.42857143;
+        border-width: 1px;
+        border-style: solid;
+        text-align: center;
+        white-space: nowrap;
+        outline: none;
+        text-decoration: none;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        font-family: 'LatoWeb', sans-serif, Arial;
+        -webkit-appearance: none;
+        background: color('teal');
+        color: color('white');
+      }
+}
+
+@mixin button-pill {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: color('white');
+    font-size: 15px;
+    padding: 9px 20px;
+    border-radius: 38px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid color('teal');
+    color: color('teal');
+    margin-bottom: 30px; 
+}
